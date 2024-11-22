@@ -2,6 +2,6 @@ import { ReactNode } from "react";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <main className="auth"></main>
+    <main className="auth">{children}</main>
   )
 }
